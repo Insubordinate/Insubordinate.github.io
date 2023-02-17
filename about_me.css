@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Mobile Devices*/
+@media (min-width:320px) and (max-width:480px){
+
+    /* GET RID OF DEFAULT */
+    body{
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+        overflow: hidden;
+        font-family: 'Press Start 2P', cursive;
+    }
+
+    img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+    /* HANDLES THE TOP PART OF THE WEBSITE */
+
+    #top_bar{
+        width:100%;
+        display:flex;
+        background-color: black;
+        padding-bottom: 5%;
+    }
+
+
+    #left_icons{
+        width:100%;
+        display:flex;
+        justify-content: space-around;
+    }
+
+    #left_icon_box{
+        width:20%;
+        background-color:rgb(107, 60, 137) ;
+        border: 1px solid;
+        font-size: .5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        overflow-wrap:break-word;
+        text-align: center;
+        box-shadow:0px 0px 0px .2em grey inset;
+
+    }
+
+
+
+
+    /* HANDLES THE MIDDLE SECTION OF THE WEBSITE */
+
+    #middle_bar{
+        position:relative;
+        width:100%;
+        background-image: url("grid.png");
+        display:flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border:.3em grey solid;
+    }
+
+    
+
+    /* HANDLES THE LEFT THIRD OF MIDDLE */
+
+    #left_middle_box{
+        width:25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 5%;
+    }
+    
+    
+    #left_middle_box_icons{
+        background-color: orange;
+        box-shadow:0px 0px 0px .1em rgb(107, 60, 137) inset;
+        display:flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size:.1em;
+        margin-top:20%;
+        margin-bottom: 5%;
+
+    }
+    
+
+
+    /* HANDLES MIDDLE */
+
+
+
+    #middle_middle_box{
+        width:25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+
+
+
+    /*HANDLES RIGHT MIDDLE */
+
+    #right_middle_box{
+        width:25%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 5%;
+    }
+
+ 
+    
+    #right_middle_box_icons{
+        background-color: orange;
+        box-shadow:0px 0px 0px .1em rgb(107, 60, 137) inset;
+        display:flex;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+        font-size:.1em;
+        margin-top:20%;
+        margin-bottom: 5%;
+    }   
+
+
+    
+
+
+
+    /* HANDLES LOWER BAR */
+
+    #lower_bar{
+        width:100%;
+        height:200px;
+        background-color:black;
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    /*HANDLES LOWER BAR BOX */
+
+    #lower_bar_icons{
+        width:30%;
+        height:50%;
+        background-color: orange;
+        margin-top:5%;
+        border: .1em solid rgb(156, 66, 252);
+        font-size:.2em;
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+        overflow-wrap:break-word;
+        padding-left:1%;
+        text-align: center;
+        box-shadow:0px 0px 2px 1em grey inset;
+    }
+}
+
+
+
+
+/*IPads, Tablets */
+@media (min-width:481px) and (max-width:768px){}
+/* Small Screens, Laptops */
+@media (min-width:769px) and (max-width:1023px){}
+/* Desktops, Large Screens*/
+@media (min-width:1024px) and (max-width:1200px){}
+/* Extra Large Screens, TVs*/
+@media (min-width:1201px) {}
